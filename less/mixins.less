@@ -1,0 +1,53 @@
+.flex {
+    display:flex;
+    flex-wrap:wrap;
+  }
+  // Font
+  .font {
+  font-family:'Liu Jian Mao Cao', cursive;
+  font-size:5rem;
+  color:white;
+  // Animation
+  animation-name: font;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  }
+  @keyframes font {
+    0%   {color:white;}
+    100%  {color:black;}
+  }
+  // fontOk
+  .fontOk {
+    font-family:'Liu Jian Mao Cao', cursive;
+    font-size:2rem;
+    color:white;
+    // Animation
+    animation-name: fontK;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    }
+    @keyframes fontK {
+      0% {color:white;}
+      50% {color:red;}
+      100% {color:white;}
+    }
+// Shadow
+  .fontShadow {
+    text-shadow: 2px 2px white;
+    // Animation
+    animation-name: shadow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  @keyframes shadow {
+    0%   {text-shadow:2px 2px white;}
+    100%  {text-shadow:2px 2px black;}
+  }
+  // This Object
+  .things{
+    color:black;
+  }
+

@@ -1,0 +1,110 @@
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.font {
+  font-family: 'Liu Jian Mao Cao', cursive;
+  font-size: 5rem;
+  color: white;
+  animation-name: font;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes font {
+  0% {
+    color: white;
+  }
+  100% {
+    color: black;
+  }
+}
+.fontOk {
+  font-family: 'Liu Jian Mao Cao', cursive;
+  font-size: 2rem;
+  color: white;
+  animation-name: fontK;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes fontK {
+  0% {
+    color: white;
+  }
+  50% {
+    color: red;
+  }
+  100% {
+    color: white;
+  }
+}
+.fontShadow {
+  text-shadow: 2px 2px white;
+  animation-name: shadow;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes shadow {
+  0% {
+    text-shadow: 2px 2px white;
+  }
+  100% {
+    text-shadow: 2px 2px black;
+  }
+}
+.things {
+  color: black;
+}
+html {
+  border: 1.5rem solid white;
+}
+body {
+  background-color: white;
+  animation-name: background;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes background {
+  0% {
+    background-color: white;
+  }
+  50% {
+    background-color: red;
+  }
+  100% {
+    background-color: black;
+  }
+}
+#sometimes {
+  font-family: 'Liu Jian Mao Cao', cursive;
+  font-size: 5rem;
+  color: white;
+  animation-name: font;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+#things {
+  color: black;
+}
+#ok {
+  font-family: 'Liu Jian Mao Cao', cursive;
+  font-size: 2rem;
+  color: white;
+  animation-name: fontK;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
